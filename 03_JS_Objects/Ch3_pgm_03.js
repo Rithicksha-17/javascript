@@ -3,12 +3,20 @@
 var book;
 
 book = {
-    title : "The Hobbit",
+    title : "do it today",
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
 console.log(book);
+
+book1 = {
+    title : "think straight",
+    author : "darius foroux",
+    published : 2000
+};
+ console.log(book1);
+ 
 
 
 
