@@ -8,6 +8,9 @@ console.log(message);
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
 
+message = "congratulations!"+ "rithicksha";
+console.log(message);
+
 
 
 /* Further Adventures
