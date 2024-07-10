@@ -6,7 +6,21 @@ var bookAuthor;
 bookTitle = "The Hobbit";
 bookAuthor = "J. R. R. Tolkien";
 
+
 console.log(bookTitle + " by " + bookAuthor);
+
+var secondbookTitle = "do it today";
+var secondbookAuthor = "darius foroux";
+
+console.log(secondbookTitle + "by" + secondbookAuthor);
+
+var thirdbookTitle = "think straight";
+var thirdbookAuthor = "darius foroux";
+
+console.log(thirdbookTitle + "by" + thirdbookAuthor);
+
+
+
 
 
 
