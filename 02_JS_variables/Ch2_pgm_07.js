@@ -2,8 +2,10 @@
 
 var playerName = "Kandra";
 var locationName = "The Dungeon of Doom";
+var health="50";
+message=(playerName + " has health " +health+" and is in"+locationName);
+console.log(message);
 
-console.log(playerName + " is in " + locationName);
 
 
 
