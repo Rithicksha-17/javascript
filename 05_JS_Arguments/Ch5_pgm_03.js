@@ -7,6 +7,9 @@ showMessage = function (message) {
 };
 
 showMessage("It's full of stars!");
+showMessage("Hello, world!");
+showMessage("How are you today?");
+showMessage("JavaScript is fun!");
 
 
 
