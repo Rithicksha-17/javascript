@@ -11,6 +11,32 @@ displayMenu = function () {
 
 displayMenu();
 
+var displayMenu;
+
+displayMenu = function () {
+    console.log("Please choose an option:");
+    console.log("(1) Print log");
+    console.log("(2) Upload file");
+    console.log("(3) Delete user");
+    console.log("(4) Update settings");
+    console.log("(9) Quit");
+};
+
+displayMenu();
+
+function displayMyMenu() {
+    console.log("Welcome to My Menu:");
+    console.log("(1) View Profile");
+    console.log("(2) Edit Preferences");
+    console.log("(3) Send Message");
+    console.log("(4) View Notifications");
+    console.log("(5) Logout");
+}
+
+
+displayMyMenu();
+
+
 
 
 /* Further Adventures
