@@ -12,6 +12,15 @@ showMovieInfo = function () {
 
 
 
+var movie;
+movie = {};
+movie.title = "gilli";
+movie.actors = "vijay";
+movie.directors = "dharani";
+showMovieInfo();
+
+
+
 /* Further Adventures
  *
  * 1) Add a call to showMovieInfo and run the program.
