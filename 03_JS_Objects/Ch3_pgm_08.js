@@ -10,6 +10,17 @@ book = {
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
+
+var secondBook = {
+	title     : "The Lord of the Rings",
+	author    : "J. R. R. Tolkien",
+	published : 1954
+  };
+  
+  console.log(secondBook.title);
+  console.log(secondBook.author);
+  console.log(secondBook.published);
 
 
 
