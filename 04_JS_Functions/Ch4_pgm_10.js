@@ -3,6 +3,7 @@
 var movie1;
 var showMovieInfo;
 var movie;
+var movie2;
 
 movie1 = {
     title: "Inside Out",
@@ -18,9 +19,17 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-movie = movie1;
+movie2 = {
+  title: "kgf",
+    actors: "yash",
+    directors: "prashanth neel"
+};
+
+movie = movie2;
 
 showMovieInfo();
+
+
 
 
 
