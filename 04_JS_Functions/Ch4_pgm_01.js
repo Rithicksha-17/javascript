@@ -1,6 +1,7 @@
 // Displaying an object's properties on the console
 
 var movie1;
+var movie2;
 
 movie1 = {
   title: "Inside Out",
@@ -13,6 +14,21 @@ console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
+
+movie2 = {
+  title: "ghilli",
+  actors: "vijay",
+  directors: "dharani"
+};
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
+
+
 
 
 
