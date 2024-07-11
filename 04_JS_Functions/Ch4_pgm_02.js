@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,23 +23,57 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
-console.log("Movie information for " + movie1.title);
+movie4 = {
+  title: "gilli",
+  actors: "vijay",
+  directors: "dharani"
+};
+
+function displayMovieInfo(movie){
+console.log("Movie information for " + movie.title);
 console.log("------------------------------");
-console.log("Actors: " + movie1.actors);
-console.log("Directors: " + movie1.directors);
+console.log("Actors: " + movie.actors);
+console.log("Directors: " + movie.directors);
 console.log("------------------------------");
 
-console.log("Movie information for " + movie2.title);
-console.log("------------------------------");
-console.log("Actors: " + movie2.actors);
-console.log("Directors: " + movie2.directors);
-console.log("------------------------------");
+}
 
-console.log("Movie information for " + movie3.title);
-console.log("------------------------------");
-console.log("Actors: " + movie3.actors);
-console.log("Directors: " + movie3.directors);
-console.log("------------------------------");
+displayMovieInfo(movie1);
+displayMovieInfo(movie2);
+displayMovieInfo(movie3);
+displayMovieInfo(movie4);
+
+var event1 = {
+  title: "Meeting with Bob",
+  date: "2024-07-12",
+  location: "Conference Room A"
+};
+
+var event2 = {
+  title: "Dentist Appointment",
+  date: "2024-07-13",
+  location: "Downtown Dental Clinic"
+};
+
+var event3 = {
+  title: "Grocery Shopping",
+  date: "2024-07-14",
+  location: "SuperMart"
+};
+
+function displayEventInfo(event) {
+  console.log("Event: " + event.title);
+  console.log("Date: " + event.date);
+  console.log("Location: " + event.location);
+  console.log("------------------------------\n");
+}
+
+displayEventInfo(event1);
+displayEventInfo(event2);
+displayEventInfo(event3);
+
+
+
 
 
 
