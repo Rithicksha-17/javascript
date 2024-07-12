@@ -5,7 +5,7 @@ var player2;
 var showPlayerPlace;
 
 showPlayerPlace = function (playerName, playerPlace) {
-    console.log(playerName + " is in " + playerPlace);
+    console.log(playerName.substring(0,1) + " is in " + playerPlace);
 };
 
 player1 = {
