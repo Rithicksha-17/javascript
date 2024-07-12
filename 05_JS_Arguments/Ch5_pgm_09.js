@@ -3,11 +3,17 @@
 var showPlayerHealth;
 
 showPlayerHealth = function (playerName, playerHealth) {
-    console.log(playerName + " has health " + playerHealth);
+    var healthInfo;
+    healthInfo = playerName + ": health " + playerHealth;
+    console.log(healthInfo);
 };
 
 showPlayerHealth("Kandra", 50);
 showPlayerHealth("Dax", 40);
+
+showPlayerHealth("Lina", 70);
+showPlayerHealth("Tarek", 30);
+
 
 
 
