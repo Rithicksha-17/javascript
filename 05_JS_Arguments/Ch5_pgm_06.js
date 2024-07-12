@@ -9,9 +9,38 @@ showSum = function (number1, number2) {
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56, 74);
 
+var showProduct = function (number1, number2) {
+	var product = number1 * number2;
+	console.log("The product is " + product);
+  };
 
+  showProduct(3, 5);
+showProduct(10, 0.5);
+showProduct(-4, 7);
 
+var showDifference = function (number1, number2) {
+	var difference = number1 - number2;
+	console.log("The difference is " + difference);
+  };
+  
+  var showQuotient = function (number1, number2) {
+	if (number2 !== 0) {
+	  var quotient = number1 / number2;
+	  console.log("The quotient is " + quotient);
+	} else {
+	  console.log("Cannot divide by zero");
+	}
+  };
+  
+ 
+  showDifference(9, 4);
+  showDifference(5, 7);
+  
+  showQuotient(10, 2);
+  showQuotient(10, 0);
+  
 /* Further Adventures
  *
  * 1) Use the showSum function to add 56 and 74.
