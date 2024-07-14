@@ -1,6 +1,7 @@
 // Returning a value from a function
 
 var getMessage;
+var getMyMessage;
 var response;
 
 getMessage = function () {
@@ -9,10 +10,14 @@ getMessage = function () {
 
 response = getMessage();
 
-console.log(response);
+console.log( getMessage()
+);
 
+var getMyMessage = function () {
+    return "This is my custom message!";
+};
 
-
+console.log(getMyMessage());
 /* Further Adventures
  *
  * 1) Write a getMyMessage function
