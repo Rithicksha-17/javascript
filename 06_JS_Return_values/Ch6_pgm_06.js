@@ -20,7 +20,7 @@ sum = function (number1, number2) {
 totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
-
+console.log(getHelloTo("Alex"));
 
 
 /* Further Adventures
