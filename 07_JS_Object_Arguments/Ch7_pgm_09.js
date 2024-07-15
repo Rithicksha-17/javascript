@@ -6,6 +6,17 @@ var charIndex = message.indexOf("M");
 
 console.log(message.substr(charIndex, 3));
 
+var goIndex = message.indexOf("go");
+console.log("The word 'go' starts at index: " + goIndex);
+
+
+var chooseIndex = message.indexOf("choose");
+var chooseWord = message.substr(chooseIndex, 6);
+console.log("The word 'choose' is: " + chooseWord);
+
+
+var lastOoIndex = message.lastIndexOf("oo");
+console.log("The index of 'oo' in the word 'Moon' is: " + lastOoIndex);
 
 
 /* Further Adventures
