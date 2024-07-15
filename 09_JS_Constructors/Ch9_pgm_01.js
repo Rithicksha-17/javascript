@@ -16,9 +16,20 @@ var planet1 = buildPlanet(
     "Gas Giant"
 );
 
+var planet2 = buildPlanet(
+    "Mars",
+    4,
+    "Terrestrial"
+);
+
+console.log(planet2.name);
+console.log(planet2.type);
+
+
 console.log(planet1.name);
 console.log(planet1.position);
 console.log(planet1.type);
+
 
 
 
