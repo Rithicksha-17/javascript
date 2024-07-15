@@ -25,6 +25,15 @@ var planet1 = buildPlanet(
 
 planet1.showPlanet();
 
+var planet2 = buildPlanet(
+    "Mars",
+    4,
+    "Terrestrial"
+);
+
+planet2.showPlanet();
+
+
 
 
 /* Further Adventures
