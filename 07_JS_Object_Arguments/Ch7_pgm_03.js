@@ -26,6 +26,32 @@ console.log(getPlanetInfo(planet1));
 console.log(getPlanetInfo(planet2));
 
 
+var buildCar;
+var getCarInfo;
+var car1;
+var car2;
+
+buildCar = function (make, model, year, type, color) {
+    return {
+        make: make,
+        model: model,
+        year: year,
+        type: type,
+        color: color
+    };
+};
+
+getCarInfo = function (car) {
+    return car.year + " " + car.make + " " + car.model + " (" + car.type + ", " + car.color + ")";
+};
+
+car1 = buildCar("Toyota", "Camry", 2022,  "White");
+car2 = buildCar("Ford", "Mustang", 2021,  "Red");
+
+console.log(getCarInfo(car1));
+console.log(getCarInfo(car2));
+
+
 
 /* Further Adventures
  *
