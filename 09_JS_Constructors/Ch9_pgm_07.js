@@ -29,6 +29,31 @@ question1.addOption("Brussels");
 
 question1.showQuestion();
 
+var question2 = new QuizQuestion(
+    "Which planet is known as the Red Planet?",
+    "Mars"
+);
+
+question2.addOption("Venus");
+question2.addOption("Mars");
+question2.addOption("Jupiter");
+question2.addOption("Saturn");
+
+var question3 = new QuizQuestion(
+    "What is the largest ocean on Earth?",
+    "Pacific Ocean"
+);
+
+question3.addOption("Atlantic Ocean");
+question3.addOption("Indian Ocean");
+question3.addOption("Arctic Ocean");
+question3.addOption("Pacific Ocean");
+
+console.log("Question 2:");
+question2.showQuestion();
+
+console.log("Question 3:");
+question3.showQuestion();
 
 
 /* Further Adventures
