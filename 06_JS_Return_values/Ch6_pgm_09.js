@@ -37,6 +37,24 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
 
+getPlayerInfo = function (playerName = "Unknown Player", playerPlace = "Unknown Place", playerHealth = 0) {
+    var playerInfo;
+
+    playerInfo = "\n" + getPlayerName(playerName);
+    playerInfo += "\n" + getBorder();
+    playerInfo += "\n" + getPlayerPlace(playerName, playerPlace);
+    playerInfo += "\n" + getPlayerHealth(playerName, playerHealth);
+    playerInfo += "\n" + getBorder();
+    playerInfo += "\n";
+
+    return playerInfo;
+};
+
+console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
+console.log(getPlayerInfo("Dax", "The Enchanted Forest", 75));
+console.log(getPlayerInfo());
+
+
 
 
 
